@@ -4,7 +4,7 @@ File: liftoff.py
 This program writes out the calls for a spaceship that is about to launch.
 It counts down the numbers from 10 to 1 and then writes “Liftoff!”
 """
-
+import time
 
 def main():
     """
@@ -12,8 +12,15 @@ def main():
     Make sure to delete the 'pass' line before starting to write
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
+
+    FKUNG - Fencepole problem
     """
-    pass
+    for i in range(10, 0, -1):
+        time.sleep(1)
+        print(i)
+    time.sleep(1)
+    print("Liftoff!")
+
 
 
 # This provided line is required at the end of a Python file

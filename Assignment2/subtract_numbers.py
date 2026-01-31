@@ -13,7 +13,15 @@ def main():
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
     """
-    pass
+    print("This program subtract one real number from another")
+    float1 = float(input("Enter first number: "))
+    float2 = float(input(f'Enter second number: '))
+    diff = substract(float1, float2)
+
+    print(f'The result is: {diff}')
+
+def substract(a, b):
+    return a - b
 
 
 # This provided line is required at the end of a Python file

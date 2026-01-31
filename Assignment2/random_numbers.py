@@ -15,7 +15,13 @@ def main():
     your own code. You should also delete this comment and replace
     it with a better, more descriptive one.
     """
-    pass
+    NUM_MIN = 0
+    NUM_MAX = 100
+    NUM_RANDOM = 10
+    for i in range(NUM_RANDOM):
+        num = random.randint(NUM_MIN, NUM_MAX)
+        print(num)
+
 
 
 # This provided line is required at the end of a Python file
